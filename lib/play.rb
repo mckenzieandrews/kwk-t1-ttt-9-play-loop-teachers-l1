@@ -40,6 +40,10 @@ def play(board)
   counter= 0
   while counter<9
     turn(board)
+    if current_player=="X"
+      current_player="O"
+    else
+      current_player="X"
     counter+=1
   end
 
