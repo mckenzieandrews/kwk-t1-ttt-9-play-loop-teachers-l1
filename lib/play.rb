@@ -42,8 +42,9 @@ def play(board)
     move(board, index, current_player="X")
     if current_player=="X"
       current_player="O"
-    else 
+    else
       current_player="X"
     counter+=1
   end
-  
+
+end
