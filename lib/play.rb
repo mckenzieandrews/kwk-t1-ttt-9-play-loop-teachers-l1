@@ -37,6 +37,7 @@ end
 
 # Define your play method below
 def play(board)
+  puts "Welcome to Tic Tac Toe"
   counter= 0
   while counter<9
     turn(board)
