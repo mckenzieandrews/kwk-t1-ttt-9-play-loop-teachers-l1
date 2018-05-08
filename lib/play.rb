@@ -39,11 +39,7 @@ end
 def play(board)
   counter= 0
   while counter<9
-    move(board, index, current_player="X")
-    if current_player=="X"
-      current_player="O"
-    else
-      current_player="X"
+    turn(board)
     counter+=1
   end
 
